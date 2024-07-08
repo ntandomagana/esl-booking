@@ -7,11 +7,7 @@ const Home = () => {
             <h1>Berry Teaches</h1>
 
             <p>Book a lesson with an experienced teacher.</p>
-            <Link to="/book">
-            <button>Book a Lesson</button>
-            </Link>
+            
         </div>
-    );
-};
-
-export default Home;
+    )
+}

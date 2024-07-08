@@ -8,10 +8,8 @@ const Home = () => {
 
             <p>Book a lesson with an experienced teacher.</p>
             <Link to="/book">
-            <button>Book a Lesson</button>
+            <button></button>
             </Link>
         </div>
-    );
-};
-
-export default Home;
+    )
+}

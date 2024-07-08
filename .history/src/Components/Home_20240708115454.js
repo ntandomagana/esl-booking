@@ -11,7 +11,5 @@ const Home = () => {
             <button>Book a Lesson</button>
             </Link>
         </div>
-    );
-};
-
-export default Home;
+    )
+}

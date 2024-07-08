@@ -1,3 +1,4 @@
+// src/BookingForm.js
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
@@ -31,7 +32,7 @@ const BookingForm = () => {
         <label>
           Email:
           <input
-            type="text"
+            type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -63,3 +64,5 @@ const BookingForm = () => {
     </div>
   );
 };
+
+export default BookingForm;
