@@ -1,12 +1,11 @@
-// src/App.js
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./Home";
-import BookingForm from "./BookingForm";
-import Confirmation from "./Confirmation";
-import "./App.css";
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './Home';
+import BookingForm from './BookingForm';
+import Confirmation from './Confirmation';
+import './App.css';
 
-const App = () => {
+const App = ()=> {
   return (
     <Router>
       <div className="App">
@@ -17,6 +16,7 @@ const App = () => {
         </Switch>
       </div>
     </Router>
+
   );
 };
 
