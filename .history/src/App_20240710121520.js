@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./Components/Home";
-import BookingForm from "./Components/BookingForm";
-import Confirmation from "./Components/Confirmation";
+import Home from "./omponents/Home";
+import BookingForm from "./components/BookingForm";
+import Confirmation from "./components/Confirmation";
 import "./App.css";
 
 const App = () => {
